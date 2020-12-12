@@ -1,6 +1,6 @@
 ## number-guessing-game
 
-# It is basically the number guessing game but with a GUI
+#### It is basically the number guessing game but with a GUI
 
 
 import tkinter as tk
