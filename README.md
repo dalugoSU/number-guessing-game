@@ -8,6 +8,6 @@ import tkinter as tk
 import random
 
 
-to get tkinter:
+#### to get tkinter:
 
 pip install tkinter
