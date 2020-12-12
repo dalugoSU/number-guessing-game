@@ -88,8 +88,8 @@ def win(): # Function that checks if you win or not, if you do creates a new fra
         again_button1.destroy()
         again_button2.destroy()
 
-        def exit():
-            root.destroy()
+    def exit_game():
+        root.destroy()
 
     if number == computer_number:
 
@@ -113,7 +113,7 @@ def win(): # Function that checks if you win or not, if you do creates a new fra
         again_button1 = tk.Button(main_frame, text='Play Again ', command=lambda: play_again())
         again_button1.place(relx=0.35, rely=0.8)
 
-        again_button2 = tk.Button(main_frame, text='Exit ', command=lambda: exit())
+        again_button2 = tk.Button(main_frame, text='Exit ', command=lambda: exit_game())
         again_button2.place(relx=0.55, rely=0.8)
 
     else: # Everytime you click a button and are wrong, this happens
